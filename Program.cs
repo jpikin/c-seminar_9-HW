@@ -10,6 +10,29 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
+int M = GetNum("Введите число M");
+int N = GetNum("Введите число N");
+int sum = 0;
+
+if (M < N) GetSum(M, N);
+else GetSum(N, M);
+Console.WriteLine($"Сумма Натуральных чисел в промежутке от {M} до {N} составит {sum}");
+
+int GetNum(string str)
+{
+    System.Console.Write(str + " ");
+    return Convert.ToInt32(Console.ReadLine());
+}
+
+void GetSum(int m, int n)
+{
+    if (m > n) return;
+
+    sum += m;
+    GetSum(m + 1, n);
+}
+
+
 // Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии.
 // Даны два неотрицательных числа m и n.
 // m = 2, n = 3 -> A(m,n) = 9
