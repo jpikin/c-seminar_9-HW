@@ -4,15 +4,15 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-// int M = GetNum("Введите число M");
-// int N = GetNum("Введите число N");
+// int M = GetInt("Введите число M");
+// int N = GetInt("Введите число N");
 // int sum = 0;
 
 // if (M < N) GetSum(M, N);
 // else GetSum(N, M);
 // Console.WriteLine($"Сумма Натуральных чисел в промежутке от {M} до {N} составит {sum}");
 
-// int GetNum(string str)
+// int GetInt(string str)
 // {
 //     System.Console.Write(str + " ");
 //     return Convert.ToInt32(Console.ReadLine());
@@ -32,12 +32,12 @@
 // m = 2, n = 3 -> A(m,n) = 9
 // m = 3, n = 2 -> A(m,n) = 29
 
-// int m = GetNum("Введите число m");
-// int n = GetNum("Введите число n");
+// int m = GetInt("Введите число m");
+// int n = GetInt("Введите число n");
 
 // Console.WriteLine($"Функция Аккермана для чисел A({m},{n}) = {Ackermann(m, n)}");
 
-// int GetNum(string str)
+// int GetInt(string str)
 // {
 //     System.Console.Write(str + " ");
 //     return Convert.ToInt32(Console.ReadLine());
