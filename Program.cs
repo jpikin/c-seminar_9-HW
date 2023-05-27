@@ -5,7 +5,7 @@
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1
 
 // int N = ReadInt("Введтите число N: ");
-// PrintNambers(N);
+// PrintNumbers(N);
 
 // int ReadInt(string text)
 // {
@@ -13,14 +13,14 @@
 //     return Convert.ToInt32(Console.ReadLine());
 // }
 
-// void PrintNambers(int N)
+// void PrintNumbers(int N)
 // {
 //     if (N == 0)
 //     {
 //         return;
 //     }
 //     Console.Write(N + " ");
-//     PrintNambers(N-1);
+//     PrintNumbers(N-1);
 // }
 
 
